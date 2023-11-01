@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Hero = () => {
     return (
         <section className="bg-blue-900 text-white py-16 flex items-center">

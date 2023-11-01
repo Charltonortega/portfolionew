@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Icon } from '@iconify/react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,20 +14,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">
             <a href="/">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M3 21l8-9 8 9M3 11l8-9 8 9"
-                />
-              </svg>
+              <Icon icon="ri:home-fill" color="white" />
             </a>
           </div>
 
