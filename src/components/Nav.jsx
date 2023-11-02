@@ -10,18 +10,18 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-gray-900 text-white p-4">
+      <nav className="bg-white-900 text-black p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold">
+          <div className="text-2xl font-bold ">
             <a href="/">
-              <Icon icon="ri:home-fill" color="white" />
+              charlton.dev
             </a>
           </div>
 
           <div className="lg:hidden">
             <button
               onClick={toggleNavbar}
-              className="text-white hover:text-gray-300 focus:outline-none focus:text-gray-300"
+              className="text-black hover:text-gray-300 focus:outline-none focus:text-gray-300"
             >
               {isOpen ? (
                 <svg
@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
 
           <div className={`lg:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
-            <ul className="lg:flex space-x-4">
+            <ul className="lg:flex space-x-4 font-bold">
               <li>
                 <a
                   href="/"
@@ -69,26 +69,26 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/portfolio"
-                  className="hover:text-gray-300 py-2 px-4 block border-b-2 border-transparent hover:border-yellow-400"
+                  href="/About"
+                  className="hover:text-black-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
                 >
-                  Portfolio
+                  About
                 </a>
               </li>
               <li>
                 <a
-                  href="/contact"
-                  className="hover:text-gray-300 py-2 px-4 block border-b-2 border-transparent hover:border-yellow-400"
+                  href="/Projects"
+                  className="hover:text-gray-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/Contact"
+                  className="hover:text-gray-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
                 >
                   Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/resume"
-                  className="hover:text-gray-300 py-2 px-4 block border-b-2 border-transparent hover:border-yellow-400"
-                >
-                  Resume
                 </a>
               </li>
             </ul>

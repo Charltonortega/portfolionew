@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white p-4">
+        <footer className="bg-black text-white p-4">
             <div className="container mx-auto flex justify-center items-center">
                 <a
                     href="https://www.linkedin.com/in/charlton-ortega-326683170/"

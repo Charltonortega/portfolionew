@@ -5,10 +5,9 @@ import Projects from './project'
 
 const main = () => {
     return (
-        <div className='bg-indigo-600'>
+        <div className='bg-white-600'>
             <Navbar />
             <Hero />
-            <Projects />
             <Footer />
         </div >
     )
