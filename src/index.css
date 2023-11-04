@@ -13,7 +13,6 @@
 
 .blob {
     animation: blobAnimation 5s ease-in-out infinite;
-    margin: 20px;
     box-shadow: 0 0px 0px 1px black;
     transition: all 1s ease-in-out;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

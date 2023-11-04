@@ -62,15 +62,15 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="hover:text-gray-300 py-2 px-4 block border-b-2 border-transparent hover:border-yellow-400"
+                  className="hover:text-blue-600 py-2 px-4 block border-b-2 border-transparent "
                 >
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="/About"
-                  className="hover:text-black-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
+                  aref="/AboutMe"
+                  className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   About
                 </a>
@@ -78,15 +78,15 @@ const Navbar = () => {
               <li>
                 <a
                   href="/Projects"
-                  className="hover:text-gray-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
+                  className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   Projects
                 </a>
               </li>
               <li>
                 <a
-                  href="/Contact"
-                  className="hover:text-gray-300 py-2 px-1 block border-b-2 border-transparent hover:border-yellow-400"
+                  aref="/Contact"
+                  className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   Contact
                 </a>

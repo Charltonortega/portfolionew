@@ -1,16 +1,19 @@
+import AboutMe from './AboutMe'
 import Footer from './Footer'
 import Navbar from './Nav'
 import Hero from './hero'
-import Projects from './project'
+import Project from './project'
 
-const main = () => {
+const Main = () => {
     return (
-        <div className='bg-white-600'>
+        <div className='bg-white'>
             <Navbar />
             <Hero />
+            <AboutMe />
+            <Project />
             <Footer />
-        </div >
+        </div>
     )
 }
 
-export default main
+export default Main

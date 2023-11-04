@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['SourceSansPro-Black', 'Roboto', 'sans-serif'],
+        'sans': ['Poppins', 'Source Sans Pro', 'Roboto', 'sans-serif'],
       }
     },
   },
