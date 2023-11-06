@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { Icon } from '@iconify/react';
 
 const Navbar = () => {
@@ -8,12 +9,17 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+    setIsOpen(false);
+  };
+
   return (
     <div>
-      <nav className="bg-white-900 text-black p-4">
+      <nav className="bg-white text-black p-4 fixed top-0 w-full" style={{ paddingBottom: 0 }}>
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold ">
-            <a href="/">
+          <div className="text-2xl font-bold">
+            <a onClick={scrollToTop} className="cursor-pointer">
               charlton.dev
             </a>
           </div>
@@ -21,7 +27,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleNavbar}
-              className="text-black hover:text-gray-300 focus:outline-none focus:text-gray-300"
+              className="text-black-600 hover:text-gray-300 focus:outline-none focus:text-gray-300"
             >
               {isOpen ? (
                 <svg
@@ -60,36 +66,45 @@ const Navbar = () => {
           <div className={`lg:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
             <ul className="lg:flex space-x-4 font-bold">
               <li>
-                <a
-                  href="/"
-                  className="hover:text-blue-600 py-2 px-4 block border-b-2 border-transparent "
+                <ScrollLink
+                  to="top"
+                  smooth={true}
+                  duration={500}
+                  onClick={scrollToTop}
+                  className="hover:text-blue-600 py-2 px-4 block border-b-2 border-transparent"
                 >
                   Home
-                </a>
+                </ScrollLink>
               </li>
               <li>
-                <a
-                  aref="/AboutMe"
+                <ScrollLink
+                  to="aboutme"
+                  smooth={true}
+                  duration={500}
                   className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   About
-                </a>
+                </ScrollLink>
               </li>
               <li>
-                <a
-                  href="/Projects"
+                <ScrollLink
+                  to="projects"
+                  smooth={true}
+                  duration={500}
                   className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   Projects
-                </a>
+                </ScrollLink>
               </li>
               <li>
-                <a
-                  aref="/Contact"
+                <ScrollLink
+                  to="contact"
+                  smooth={true}
+                  duration={500}
                   className="hover:text-blue-600 py-2 px-1 block border-b-2 border-transparent"
                 >
                   Contact
-                </a>
+                </ScrollLink>
               </li>
             </ul>
           </div>

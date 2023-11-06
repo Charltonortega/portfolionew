@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 const Hero = () => {
     return (
         <motion.section
-            className="bg-gray-50 text-black h-screen flex flex-col justify-center items-center"
+            className="bg-gray-200 text-black h-screen flex flex-col justify-center items-center"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -23,7 +23,7 @@ const Hero = () => {
                     </motion.h1>
 
                     <motion.div
-                        className="text-2xl mb-4 text-gray-700"
+                        className="text-2xl mb-4 text-gray-600"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1.5, duration: 0.4 }}
