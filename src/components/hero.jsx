@@ -34,13 +34,13 @@ const Hero = () => {
                 </div>
                 <div className="md:w-1/2 mb-6 md:mb-0 flex justify-center">
                     <motion.div
-                        className="rounded-full border-1 border-black overflow-hidden blob"
+                        className="rounded-full border-2 border-black overflow-hidden blob"
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
                         transition={{ delay: 1.6, duration: 0.5 }}
                     >
                         <img
-                            src="./src/assets/headshot.jpg"
+                            src="./public/headshot.jpg"
                             alt="Charlton Ortega"
                             className="w-full h-full object-cover"
                         />
