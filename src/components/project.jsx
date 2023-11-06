@@ -10,7 +10,7 @@ const projectsData = [
         image: './src/assets/reciperadar.png',
         demoLink: 'https://jujusoi.github.io/Project-1/index.html',
         repoLink: 'https://github.com/jujusoi/G3-ReadMi',
-        languages: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'SCSS']
+        languages: ['HTML', 'CSS', 'JavaScript', 'React', 'Bulma', 'SCSS']
     },
     {
         id: 2,
@@ -37,6 +37,23 @@ const projectsData = [
         image: './src/assets/employeetracker.png',
         repoLink: 'https://github.com/charltonortega/Employee-Tracker',
         languages: ['JavaScript', 'Node.js', 'MySQL', 'Inquirer', 'Jest']
+    },
+    {
+        id: 5,
+        title: 'Code Quiz',
+        description: '🧠Code Quiz: Create a code quiz with multiple-choice questions to test your knowledge of JavaScript fundamentals.',
+        image: './src/assets/codequiz1.gif',
+        demoLink: 'https://charltonortega.github.io/Web-APIs-Challenge-Code-Quiz',
+        repoLink: 'https://github.com/Charltonortega/Web-APIs-Challenge-Code-Quiz',
+        languages: ['HTML', 'CSS', 'JavaScript']
+    },
+    {
+        id: 6,
+        title: 'E-Commerce Back-End',
+        description: '🛒E-Commerce Back-End: Create an e-commerce backend with Node.js, Express, Sequelize, and MySQL.',
+        image: './src/assets/ecommercebackend.gif',
+        repoLink: 'https://github.com/Charltonortega/E-commerce-Back-End',
+        languages: ['Node.js', 'Express', 'Sequelize', 'MySQL']
     }
 ];
 

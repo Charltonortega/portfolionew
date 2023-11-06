@@ -10,7 +10,12 @@ const Navbar = () => {
   };
 
   const scrollToTop = () => {
-    scroll.scrollToTop();
+    scroll.scrollToTop({ smooth: true }); // Smooth scroll to the top
+    setIsOpen(false);
+  };
+
+  const scrollToSection = (sectionId) => {
+    scroll.scrollTo(sectionId, { smooth: true }); // Smooth scroll to the specified section
     setIsOpen(false);
   };
 

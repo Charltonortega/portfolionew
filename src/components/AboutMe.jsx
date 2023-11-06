@@ -10,7 +10,10 @@ const AboutMe = () => {
                         alt="Placeholder Photo"
                         className="w-130 h-64 rounded-3xl mx-auto"
                     />
+
                 </div>
+
+
                 <div className="md:w-1/2">
                     <h1 className="text-2xl text-blue-600 font-bold mb-2">ABOUT ME</h1>
                     <h2 className="text-4xl font-bold mb-4">A dedicated web-developer based in Adelaide, Australia📍</h2>

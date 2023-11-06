@@ -5,10 +5,10 @@ import { Icon } from '@iconify/react';
 const Hero = () => {
     return (
         <motion.section
-            className="bg-gray-200 text-black h-screen flex flex-col justify-center items-center"
+            className="bg-gray-100 text-black h-screen flex flex-col justify-center items-center"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0 }}
         >
 
             <div className="container mx-auto flex flex-col md:flex-row items-center">
