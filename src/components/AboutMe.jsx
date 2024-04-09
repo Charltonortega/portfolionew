@@ -6,7 +6,7 @@ const AboutMe = () => {
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 mb-6 md:mb-0">
                     <img
-                        src="./public/developersplash.png"
+                        src="/developersplash.png"
                         alt="Placeholder Photo"
                         className="w-130 h-64 rounded-3xl mx-auto"
                     />

@@ -40,7 +40,7 @@ const Hero = () => {
                         transition={{ delay: 1.6, duration: 0.5 }}
                     >
                         <img
-                            src="./public/headshot.jpg"
+                            src="/headshot.jpg"
                             alt="Charlton Ortega"
                             className="w-full h-full object-cover"
                         />
